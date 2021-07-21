@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="icon" href="./images/tic-tac-toe.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Tourney:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h2>Tic Tac Toe</h2>
+        </div>
+        <div class="player-info">
+            <div class="container player-x">
+                <h5 class="player">
+                    Player 1 (X)
+                </h5>
+                <div class="triangle-up"></div>
+            </div>
+            <div class="container player-circle">
+                <h5 class="player">
+                    Player 2 (O)
+                </h5>
+                <div class="triangle-up"></div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text>X wins!</div>
+        <button id="restartButton">Restart</button>
+    </div>
+    <script src="./script.js"></script>
+    <footer>
+        Developed by <a target="_blank" href="https://www.baniyakshitiz.com.np/">Kshitiz Baniya</a>
+    </footer>
+</body>
+
+</html>
